@@ -1,0 +1,29 @@
+.container{
+    position: absolute;
+    display: grid;
+    border: 2px solid black;
+    width: 300px;
+    height: 200px;
+    grid-template-columns: 10px 10px;
+    grid-gap: 10px;
+}   
+.btm{
+    grid-column-end: 10;
+    grid-row-start: 10;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px ;
+    padding-left: 15px;
+}
+.small-box-info {
+    position: absolute;
+    display: grid;
+    grid-area: 6/4;
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    bottom: 55px;   /* places it just above the small box */
+    right: 10px;
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
